@@ -1,0 +1,224 @@
+body{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.leftbar{
+    width:200px;
+    border:1px solid lightgray;
+    padding: 20px; 
+    position: fixed;
+}
+.rightbar{
+    margin-left: 250px;
+}
+.insta{
+    width:110px;
+    margin: 25px 10px;
+}
+.menu{
+    display: flex;
+    gap:20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.icon{
+    width: 25px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.more{
+    display: flex;
+    gap:20px;
+    margin-top: 40px;
+    padding:10px;
+}
+.googlelogo{
+    width:100px;
+    border:1px solid lightgray;
+    border-radius: 50%;
+    padding: 20px;
+}
+.section{
+    display: flex;
+}
+.topbar{
+    margin-top: 35px;
+    margin-left: 140px;
+    width:970px;
+    display: flex;
+    align-items: center;
+    gap:100px;
+}
+.header{
+    width:360px;
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+.googleverified{
+    display: flex;
+    gap:10px;
+}
+.fm{
+    display: flex;
+    gap:10px;
+}
+.follow{
+    border:none;
+    background-color: #0064e0;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.message{
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.user{
+    background-color: rgb(238, 236, 236);
+    border-radius: 8px;
+    padding:10px;
+}
+.goo{
+    font-size: 18px;
+}
+.numbers{
+    width:360px;
+    display:flex;
+    justify-content: space-between;
+}
+.num{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.num p{
+    font-weight: 500;
+}
+.g1{
+    width:80px;
+    height: 40px;
+    margin-top: -10px;
+}
+.g2{
+    height:20px;
+    font-weight: 500;
+}
+.g0{
+    height: 20px;
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    background-color: rgba(179, 179, 179, 0.281);
+    border-radius: 14px;
+}
+.g4{
+    font-size: 14px;
+}
+.t3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.t3 a{
+    color: rgb(22, 22, 105);
+    font-weight: 500;
+}
+.t3 a:hover{
+    text-decoration: underline;
+}
+.t {
+    margin-top: 10px;
+    line-height: 5px ;
+    font-size:14px;
+}
+.gray{
+    color:rgb(121, 118, 118);
+}
+.colorbar{
+    display: flex;
+    gap: 40px;
+    margin-top:60px;
+    margin-left: 140px;
+}
+.container{
+    display: block;
+    line-height: 40px;
+}
+.ct{
+    text-align: center;
+    font-size: 14px;
+}
+.box{
+    width:75px;
+    padding: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.623);
+    border-radius: 50%;
+}
+.box1{
+     width:75px;
+     height:75px;
+     background-color: rgba(0, 0, 255, 0.575);
+     border-radius: 50%;
+}
+.box2{
+    width:75px;
+    height:75px;
+    background-color: rgba(0, 0, 255, 0.308);
+    border-radius: 50%;
+}
+.box3{
+    width:75px;
+    height:75px;
+    background-color:rgba(218, 50, 50, 0.863);
+    border-radius: 50%;
+}
+.box4{
+    width:75px;
+    height:75px;
+    background-color:rgb(226, 226, 65);
+    border-radius: 50%;
+}.box5{
+    width:75px;
+    height:75px;
+    background-color:rgb(78, 153, 17);
+    border-radius: 50%;
+}
+.horizontalbar{
+    border-top: 1px solid lightgray;
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+.prt{
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+}
+.prtx{
+    border-top: 1px solid black;
+}
+.img-prt{
+    width: 15px;
+}
+.flexcard{
+    display: flex;
+    gap: 2px;
+    margin: 0 100px;
+}
+.card{
+    width: 301px;
+    height: 320px;
+}
+.card img{
+    width: 301px;
+    height: 320px;
+}
